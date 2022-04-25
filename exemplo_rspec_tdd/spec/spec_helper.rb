@@ -17,6 +17,13 @@ require_relative "../helpers/helper.rb"
 
 RSpec.configure do |config|
 
+  config.before(:suite) do
+    puts '>>>>>>> BEFORE ALL TESTS'
+  end
+
+  config.after(:suite) do
+    puts '>>>>>>> AFTER ALL TESTS'
+  end
   # Helper Methods de Modulo
   config.include Helper
 
