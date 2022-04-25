@@ -1,4 +1,3 @@
-require_relative 'helper'
 
 RSpec.configure do |conf|
   conf.include Helper
