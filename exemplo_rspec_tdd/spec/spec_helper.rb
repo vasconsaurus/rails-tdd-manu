@@ -24,6 +24,14 @@ RSpec.configure do |config|
   config.after(:suite) do
     puts '>>>>>>> AFTER ALL TESTS SUITE'
   end
+
+  config.before(:context) do
+    puts '>>>>>>> BEFORE EACH TEST'
+  end
+
+  config.after(:all) do
+    puts '>>>>>>> AFTER EACH TEST'
+  end
   # Helper Methods de Modulo
   config.include Helper
 
