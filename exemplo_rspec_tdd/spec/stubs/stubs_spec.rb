@@ -48,3 +48,5 @@ describe 'Stub' do
     expect{ student.bar }.to raise_error(RuntimeError)
   end
 end
+
+# stubs são utilizados para substituir estados
