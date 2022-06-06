@@ -1,6 +1,8 @@
 require 'student'
 require 'course'
 
+# stubs são utilizados para substituir estados
+
 describe 'Stub' do
   it '#has_finished?' do
     student = Student.new
@@ -48,5 +50,3 @@ describe 'Stub' do
     expect{ student.bar }.to raise_error(RuntimeError)
   end
 end
-
-# stubs são utilizados para substituir estados
