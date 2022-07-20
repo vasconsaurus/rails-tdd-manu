@@ -1,0 +1,7 @@
+jackson:
+  name: jackson
+  email: j@test.com
+
+jose:
+  name: jose
+  email: jo@test.com
